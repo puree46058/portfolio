@@ -18,7 +18,12 @@ export const useSiteContent = () => {
     const load = async () => {
       setStatus("loading");
       try {
-        const response = await fetch("/api/content", { signal: controller.signal });
+        // Try API first (dev server)
+        let response = await fetch("/api/content", { signal: controller.signal });
+        if (!response.ok) {
+          // Fallback to static JSON for static hosting
+          response = await fetch("/content.json", { signal: controller.signal });
+        }
         if (!response.ok) {
           throw new Error(`Failed to load content (${response.status})`);
         }
