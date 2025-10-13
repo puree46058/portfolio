@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Puree Vongpunya | Portfolio</title>
+    <link rel="icon" type="image/png" href="./asset/icon/chatgpt.png" />
+    <link rel="stylesheet" href="/client/styles.css" />
+    <% if (entryAssets.css && entryAssets.css.length) { %>
+      <% entryAssets.css.forEach((href) => { %>
+        <link rel="stylesheet" href="<%= href %>" />
+      <% }) %>
+    <% } %>
+  </head>
+  <body class="theme-light">
+    <div id="root"></div>
+    <script>
+      window.__SITE_CONTENT__ = <%- JSON.stringify(siteContent) %>;
+    </script>
+    <% if (entryAssets.devClient) { %>
+      <script type="module" src="<%= entryAssets.devClient %>"></script>
+    <% } %>
+    <script type="module" src="<%= entryAssets.script %>"></script>
+  </body>
+</html>
