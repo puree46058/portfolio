@@ -256,10 +256,59 @@ const siteContent = {
           "/asset/project/n8n/bottrade.png",
           
         ],
-        tags: ["n8n", "Automation", "API Integration"],
+       
+        tags: ["n8n", "Automation", "API Integration", "MySQL",
+          "Superbase"],
         links: [],
       },
-
+      {
+        "title": "N8N Live Tiktok",
+         "description":
+          "ระบบ AI ที่จะที่จะพูกคุยกับผู้ใช้ที่พิมพ์แชททาง TikTok",
+         "coverImage": "/asset/project/n8n-nodejs/1.jpg",
+         "gallery": [
+          "/asset/project/n8n-nodejs/1.jpg",
+          "/asset/project/n8n-nodejs/2.jpg",
+          "/asset/project/n8n-nodejs/3.jpg",
+          "/asset/project/n8n-nodejs/4.png"
+        
+          
+        ],
+        "role": "AI Automation",
+        "contributions": [
+          "สร้าง Flow ที่รับค่า จาก Nodejs ที่มีการเช็คคำจาก Chat TikTok",
+          "สร้าง Flow ที่รับค่า จาก Nodejs ที่มีการเช็ค สถานะผู้แชตว่าส่งของขวัญมาแล้วรึยัง เพื่อจะวสมารถคุยได้ละเอียดมากขึ้น",
+          "เขียน Nodejs ที่มีการติดต่อทั้ง TikTok N8N",
+          "สร้างวิดีโอเคลื่อนไว  AI แม่หมอ ให้ทำท่าตามที่มีกำหนดเบื้องต้น และเสียงเบื้องต้น และมีการ สร้างเสียง Real Time ในการโต้ตอบ"
+          
+        ],
+        "tags": ["n8n", "Automation", "Nodejs","Superbase","MySQL"],
+        "links": []
+      },
+{
+        "title": "Backlink-Web",
+         "description":
+          "ระบบ Backlink เว็ปไซต์ที่ต้องการเพื่อดู Traffic",
+         "coverImage": "/asset/project/backlink/1.jpg",
+         "gallery": [
+          "/asset/project/backlink/1.jpg",
+          "/asset/project/backlink/2.jpg",
+          "/asset/project/backlink/3.jpg",
+          "/asset/project/backlink/4.jpg"
+        
+          
+        ],
+        "role": "Full Stack",
+        "contributions": [
+          "มีระบบ Login",
+          "ใช้ API เว็ปนอกเพื่อแกะ Data ของเว็ป และ plot ออกเป็นกราฟให้มองง่ายทีล่ะ 1 เว็ป ",
+          "สร้างระบบ Cron เพื่อรีเซ็ต เช็คทุกวันศุกร์"
+          
+    
+        ],
+        "tags": ["PHP","MySQL","Rest API"],
+        "links": []
+      }
     ],
   },
   resume: {
@@ -274,6 +323,15 @@ const siteContent = {
         previewImage: "/pdf/img_resume.png",
         file: "/pdf/resume_puree_vongpunya.pdf",
         buttonLabel: "Download Resume",
+      },
+       {
+        key: "resume-eng",
+        label: "Resume-eng",
+        description:
+          "Summary of Work Experience, Achievements, and Key Skills",
+        previewImage: "/pdf/img_resume-eng.png",
+        file: "/pdf/resume_puree_vongpunya-eng.pdf",
+        buttonLabel: "Download Resume Eng",
       },
       {
         key: "cv",
