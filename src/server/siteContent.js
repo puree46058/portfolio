@@ -194,7 +194,7 @@ const siteContent = {
       {
         title: "Recipient Menu App",
         description:
-          "แอปแสดงวิธีการทำอาหาร พร้อมสูตร แอปนี้คือตัวอย่าง อาหารอินเดีย ความจริงมี 7 แอป",
+          "แอปแสดงวิธีการทำอาหาร พร้อมสูตร แอปนี้คือตัวอย่าง สปาเก็ตตี้ ความจริงมี 7 แอป",
         coverImage: "/asset/project/recipient/app_icon.png",
         gallery: [
           "/asset/project/recipient/1.jpg",
@@ -215,7 +215,7 @@ const siteContent = {
           links: [
           {
             label: "Google Play",
-            href: "https://play.google.com/store/apps/details?id=com.ktcccp.indianrecipes&pcampaignid=web_share",
+            href: "https://play.google.com/store/apps/details?id=com.ktcccp.spaghettirecipes&pcampaignid=web_share",
           },
         ]
       },
