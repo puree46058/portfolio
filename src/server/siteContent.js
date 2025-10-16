@@ -89,7 +89,7 @@ const siteContent = {
         title: "Automation & Collaboration",
         items: [
           { name: "n8n", icon: "/asset/icon/n8n.png" },
-          { name: "AI Tools (ChatGPT,Codex,Gemini)", icon: "/asset/icon/chatgpt.png" },
+          { name: "AI Tools", icon: "/asset/icon/chatgpt.png" },
           { name: "Git", icon: "/asset/icon/git.png" },
         ],
       },
@@ -194,7 +194,7 @@ const siteContent = {
       {
         title: "Recipient Menu App",
         description:
-          "แอปแสดงวิธีการทำอาหาร พร้อมสูตร และมีการใส่ Ads Mob มีเลือกอาหารที่ทำประจำ ความจริงมี 7 แอปนี้ ตัวอย่าง",
+          "แอปแสดงวิธีการทำอาหาร พร้อมสูตร แอปนี้คือตัวอย่าง อาหารอินเดีย ความจริงมี 7 แอป",
         coverImage: "/asset/project/recipient/app_icon.png",
         gallery: [
           "/asset/project/recipient/1.jpg",

@@ -135,7 +135,7 @@
             "icon": "/asset/icon/n8n.png"
           },
           {
-            "name": "AI Tools (ChatGPT,Codex,Gemini)",
+            "name": "AI Tools",
             "icon": "/asset/icon/chatgpt.png"
           },
           {
@@ -253,7 +253,8 @@
       },
       {
         "title": "Recipient Menu App",
-        "description": "แอปแสดงวิธีการทำอาหาร พร้อมสูตร และมีการใส่ Ads Mob มีเลือกอาหารที่ทำประจำ ความจริงมี 7 แอปนี้ ตัวอย่าง",
+        "description":
+          "แอปแสดงวิธีการทำอาหาร พร้อมสูตร แอปนี้คือตัวอย่าง อาหารอินเดีย ความจริงมี 7 แอป",
         "coverImage": "/asset/project/recipient/app_icon.png",
         "gallery": [
           "/asset/project/recipient/1.jpg",
