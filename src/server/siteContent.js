@@ -319,7 +319,7 @@ const siteContent = {
         key: "resume",
         label: "Resume",
         description:
-          "สรุปประสบการณ์ทำงาน ผลงาน และทักษะที่โดดเด่น เพื่อให้นายจ้างเห็นภาพรวมอย่างรวดเร็ว",
+          "สรุปประสบการณ์ทำงาน ผลงาน และทักษะที่โดดเด่น เพื่อให้เห็นภาพรวมอย่างรวดเร็ว",
         previewImage: "/pdf/img_resume.png",
         file: "/pdf/resume_puree_vongpunya.pdf",
         buttonLabel: "Download Resume",
