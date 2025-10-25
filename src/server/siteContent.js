@@ -4,7 +4,7 @@ const siteContent = {
     description:
       "Portfolio แสดงผลงานและทักษะการออกแบบและพัฒนาเว็บแอปพลิเคชันของ Puree Vongpunya พร้อมดาวน์โหลด Resume/CV และช่องทางติดต่อ",
     email: "puree.vongpunya@gmail.com",
-    location: "เชียงใหม่ ประเทศไทย",
+    location: "อ.เมือง ต.หนองหอย จังหวัดเชียงใหม่ ประเทศไทย",
     socials: [
       {
         label: "LinkedIn",
@@ -46,7 +46,7 @@ const siteContent = {
       "ชอบทดลองเครื่องมือใหม่ เช่น AI, n8n, Supabase",
     ],
     details: [
-      { label: "อยู่ที่", value: "เชียงใหม่ ประเทศไทย" },
+      { label: "อยู่ที่", "value": "อ.เมือง ต.หนองหอย จังหวัดเชียงใหม่ ประเทศไทย" },
       { label: "ถนัด", value: "Front-end, Mobile develop, Workflow Automation" },
       { label: "กำลังสนใจ", value: "Product Design, AI-Automation" },
     ],
