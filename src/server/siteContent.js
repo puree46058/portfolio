@@ -270,7 +270,7 @@ const siteContent = {
       {
         "title": "N8N Live Tiktok",
          "description":
-          "ระบบ AI ที่จะที่จะพูกคุยกับผู้ใช้ที่พิมพ์แชททาง TikTok",
+          "ระบบ AI ที่จะที่จะพูดคุยกับผู้ใช้ที่พิมพ์แชททาง TikTok",
          "coverImage": "/asset/project/n8n-nodejs/1.jpg",
          "gallery": [
           "/asset/project/n8n-nodejs/1.jpg",
