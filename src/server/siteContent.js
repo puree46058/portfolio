@@ -18,7 +18,7 @@ const siteContent = {
   },
   hero: {
    
-    name: "Puree Vongpunya",
+    name: "นายภูรี วงษ์ปัญญา",
     title: "Programmer & Ai Automation",
     tagline:
       "ผมชอบทำโปรเจคที่ตอบโจทย์ธุรกิจ ตั้งแต่ UX/UI, Front-end, Mobile develop จนถึง Workflow Automation",
