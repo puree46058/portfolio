@@ -44,7 +44,7 @@ const HomeSection = ({ hero, meta }) => {
             <div>{meta.email}</div>
           </div>
           <div className="stacked-list__item">
-            <strong>ที่ตั้ง</strong>
+            <strong>ที่อยู่</strong>
             <div>{meta.location}</div>
           </div>
         </div>
