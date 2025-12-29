@@ -64,7 +64,7 @@ const NavBar = ({ sections, activeSection, onNavigate }) => {
             {sections.map((section) => (
               <li key={section.id}>
                 <a
-                  className={`nav__link ${activeSection === section.id ? "nav__link--active" : ""}`}
+                  className={`nav__link ${activeSection === section.id ? "" : ""}`}
                   href={`#${section.id}`}
                   onClick={(event) => handleNavigate(event, section.id)}
                 >
