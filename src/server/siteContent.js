@@ -17,7 +17,7 @@ const siteContent = {
     ],
   },
   hero: {
-   
+
     name: "นายภูรี วงษ์ปัญญา",
     title: "Programmer & Ai Automation",
     tagline:
@@ -26,7 +26,7 @@ const siteContent = {
       label: "ดูผลงานเด่น",
       href: "#projects",
     },
-  
+
     quickFacts: [
       "2+ ปี ประสบการณ์สร้างเว็บและแอป",
       "ประยุกต์ AI & Automation ในงานจริง",
@@ -54,7 +54,7 @@ const siteContent = {
   },
   skills: {
     heading: "ทักษะและเครื่องมือ",
-   
+
     categories: [
       {
         title: "Web Fundamentals",
@@ -69,7 +69,7 @@ const siteContent = {
         title: "Back-end & Database",
         items: [
           { name: "Node.js", icon: "/asset/icon/nodejs.png" },
-   
+
           { name: "PHP", icon: "/asset/icon/php.png" },
           { name: "MySQL", icon: "/asset/icon/mysql.png" },
           { name: "MongoDB", icon: "/asset/icon/mongodb.png" },
@@ -122,13 +122,13 @@ const siteContent = {
           "/asset/project/app_sleep/15.png",
           "/asset/project/app_sleep/16.jpg",
         ],
-        tags: ["Flutter","Admob","Subscription Google"],
+        tags: ["Flutter", "Admob", "Subscription Google"],
         role: "Flutter Developer",
         contributions: [
           "ออกแบบและพัฒนา UI/UX สำหรับหน้าหลัก, Subscription, Premium Plans",
           "เชื่อมต่อระบบสมัครสมาชิกกับ Google Play Billing (Subscription)",
           "พัฒนาระบบแจ้งเตือนตั้งเวลาเข้านอน/ตื่นนอน (Notification Scheduler)",
-            "ใส่ AdMob และจัดการตำแหน่งแสดงผล",
+          "ใส่ AdMob และจัดการตำแหน่งแสดงผล",
         ],
         links: [],
       },
@@ -144,7 +144,7 @@ const siteContent = {
           "/asset/project/life_countdown/4.jpg",
           "/asset/project/life_countdown/5.jpg",
           "/asset/project/life_countdown/6.jpg",
-     
+
         ],
         tags: ["Flutter", "Admob"],
         role: "Flutter Developer",
@@ -152,7 +152,7 @@ const siteContent = {
           "แก้ Package Error android",
           "ใส่ AdMob และจัดการตำแหน่งแสดงผล",
         ],
-          links: [
+        links: [
           {
             label: "Google Play",
             href: "https://play.google.com/store/apps/details?id=com.think.lifecountdown&pcampaignid=web_share",
@@ -176,7 +176,7 @@ const siteContent = {
           "/asset/project/mysticoracle/9.jpg",
           "/asset/project/mysticoracle/10.jpg",
         ],
-        tags: ["Flutter", "MySql", "AI Integration","Admob","Subscription Google"],
+        tags: ["Flutter", "MySql", "AI Integration", "Admob", "Subscription Google"],
         role: "Flutter Developer",
         contributions: [
           "แก้ Package Error android",
@@ -204,15 +204,15 @@ const siteContent = {
           "/asset/project/recipient/5.jpg",
           "/asset/project/recipient/6.jpg",
         ],
-        tags: ["Flutter", "MySql","Admob"],
-          role: "Flutter Developer",
+        tags: ["Flutter", "MySql", "Admob"],
+        role: "Flutter Developer",
         contributions: [
           "แก้ Package Error android",
           "แก้ Widget และ ฟังก์ชั่น ถูกใจ ทั้งหมด",
           "ใส่ AdMob และจัดการตำแหน่งแสดงผล",
-          
+
         ],
-          links: [
+        links: [
           {
             label: "Google Play",
             href: "https://play.google.com/store/apps/details?id=com.ktcccp.spaghettirecipes&pcampaignid=web_share",
@@ -232,15 +232,15 @@ const siteContent = {
           "/asset/project/adella/web5.png",
 
         ],
-        tags: ["Wordpress","Divi"],
-         role: "Front-end",
+        tags: ["Wordpress", "Divi"],
+        role: "Front-end",
         contributions: [
           "แก้ UI ด้วย plugin divi หน้าเกี่ยวกับสินค้า ข้อมูลสินค้า รีวิวจากลูกค้า ติดต่อเรา",
           "ใส่ข้อมูลสินค้าเข้า Website",
           "ใส่รายละเอียด โปรโมชั่น",
           "ตัดต่อภาพสินค้าให้เหมาะกับเว็ปไซต์",
         ],
-          links: [
+        links: [
           {
             label: "Website",
             href: "https://adellaofficial.com/",
@@ -260,25 +260,28 @@ const siteContent = {
           "/asset/project/n8n/ads.png",
           "/asset/project/n8n/ads_more.png",
           "/asset/project/n8n/bottrade.png",
-          
+          "/asset/project/n8n/tiktok.png",
+          "/asset/project/n8n/tiktok2.png",
+          "/asset/project/n8n/tiktok3.png"
+
         ],
-       
+
         tags: ["n8n", "Automation", "API Integration", "MySQL",
           "Superbase"],
         links: [],
       },
       {
         "title": "N8N Live Tiktok",
-         "description":
+        "description":
           "ระบบ AI ที่จะที่จะพูดคุยกับผู้ใช้ที่พิมพ์แชททาง TikTok",
-         "coverImage": "/asset/project/n8n-nodejs/1.jpg",
-         "gallery": [
+        "coverImage": "/asset/project/n8n-nodejs/1.jpg",
+        "gallery": [
           "/asset/project/n8n-nodejs/1.jpg",
           "/asset/project/n8n-nodejs/2.jpg",
           "/asset/project/n8n-nodejs/3.jpg",
           "/asset/project/n8n-nodejs/4.png"
-        
-          
+
+
         ],
         "role": "AI Automation",
         "contributions": [
@@ -286,33 +289,33 @@ const siteContent = {
           "สร้าง Flow ที่รับค่า จาก Nodejs ที่มีการเช็ค สถานะผู้แชตว่าส่งของขวัญมาแล้วรึยัง เพื่อจะสามารถคุยได้ละเอียดมากขึ้น",
           "เขียน Nodejs ที่มีการติดต่อทั้ง TikTok N8N",
           "สร้างวิดีโอเคลื่อนไว  AI แม่หมอ ให้ทำท่าตามที่มีกำหนดเบื้องต้น และเสียงเบื้องต้น และมีการ สร้างเสียง Real Time ในการโต้ตอบ"
-          
+
         ],
-        "tags": ["n8n", "Automation", "Nodejs","Superbase","MySQL"],
+        "tags": ["n8n", "Automation", "Nodejs", "Superbase", "MySQL"],
         "links": []
       },
-{
+      {
         "title": "Backlink-Web",
-         "description":
+        "description":
           "ระบบ Backlink เว็ปไซต์ที่ต้องการเพื่อดู Traffic",
-         "coverImage": "/asset/project/backlink/1.jpg",
-         "gallery": [
+        "coverImage": "/asset/project/backlink/1.jpg",
+        "gallery": [
           "/asset/project/backlink/1.jpg",
           "/asset/project/backlink/2.jpg",
           "/asset/project/backlink/3.jpg",
           "/asset/project/backlink/4.jpg"
-        
-          
+
+
         ],
         "role": "Full Stack",
         "contributions": [
           "มีระบบ Login",
           "ใช้ API เว็ปนอกเพื่อแกะ Data ของเว็ป และ plot ออกเป็นกราฟให้มองง่ายทีล่ะ 1 เว็ป ",
           "สร้างระบบ Cron เพื่อรีเซ็ต เช็คทุกวันศุกร์"
-          
-    
+
+
         ],
-        "tags": ["PHP","MySQL","Rest API"],
+        "tags": ["PHP", "MySQL", "Rest API"],
         "links": []
       }
     ],
@@ -330,7 +333,7 @@ const siteContent = {
         file: "/pdf/resume_puree_vongpunya.pdf",
         buttonLabel: "Download Resume",
       },
-       {
+      {
         key: "resume-eng",
         label: "Resume-eng",
         description:
