@@ -262,7 +262,8 @@ const siteContent = {
           "/asset/project/n8n/bottrade.png",
           "/asset/project/n8n/tiktok.png",
           "/asset/project/n8n/tiktok2.png",
-          "/asset/project/n8n/tiktok3.png"
+          "/asset/project/n8n/tiktok3.png",
+          "/asset/project/n8n/autopost.png"
 
         ],
 
